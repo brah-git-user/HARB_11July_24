@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
+        <servicesKeys>
+            <keyDetails collectionKey="services.sfdc.crm:getAcc" connectorServiceName="services.sfdc.crm:getAcc"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>
