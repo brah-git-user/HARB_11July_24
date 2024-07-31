@@ -1783,7 +1783,7 @@
     <value name="interactionName">queryAll</value>
     <value name="serviceName">SforceService</value>
     <value name="virtualServiceName">WmCloudStreams.SoapVS</value>
-    <value name="connectionName">conn:sfdcOauthv2</value>
+    <value name="connectionName">conn:sfdcOauthV2</value>
     <value name="connectionType">sagcloud_oauth_v20_authorization_code</value>
     <value name="connectorID">com.softwareag.cloudstreams.salesforce_v53</value>
     <record name="customData" javaclass="com.wm.util.Values">
