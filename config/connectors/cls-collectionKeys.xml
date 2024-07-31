@@ -3,6 +3,7 @@
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
         <servicesKeys>
             <keyDetails collectionKey="services.sfdc.crm:getAcc" connectorServiceName="services.sfdc.crm:getAcc"/>
+            <keyDetails collectionKey="services.sfdc.crm:getTenAccCcs" connectorServiceName="services.sfdc.crm:getTenAccCcs"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
 </services>
