@@ -3,17 +3,17 @@
 <Values version="2.0">
   <value name="node_type">CloudConnectionNode</value>
   <value name="node_subtype">unknown</value>
-  <value name="node_nsName">conn:sfdcCrm53</value>
+  <value name="node_nsName">conn:sfdcCrm48</value>
   <value name="node_pkg">HARB_11July_24</value>
   <value name="is_public">false</value>
   <value name="cloudNodeVersion">1</value>
   <record name="cloudNodeProperties" javaclass="com.wm.util.Values">
     <number name="connectionNodeVersion" type="Integer">1</number>
-    <value name="connectorID">com.softwareag.cloudstreams.salesforce_v53</value>
+    <value name="connectorID">com.softwareag.cloudstreams.salesforce_v48</value>
     <value name="providerName">WmSalesforceProvider</value>
     <value name="providerConnectionType">sagcloud</value>
     <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
-      <value name="cn.providerUrl">https://login.salesforce2.com/services/Soap/u/53.0</value>
+      <value name="cn.providerUrl">https://login.salesforce.com/services/Soap/u/48.0</value>
       <value name="cn.connectTimeout">180000</value>
       <value name="cn.readTimeout">180000</value>
       <value name="cn.socketStaleCheck">true</value>
@@ -35,7 +35,7 @@
       <value name="cn.enableSNI">true</value>
       <value name="cn.sniServerName"></value>
       <value name="cr.username">rdb@gmail.com</value>
-      <value name="cr.password">conn:sfdcCrm53.cr.password</value>
+      <value name="cr.password">conn:sfdcCrm48.cr.password</value>
       <value name="cr.authSchemeType">none</value>
       <value name="cr.preemptiveAuthEnabled">false</value>
       <value name="cr.securityRealm"></value>
@@ -51,7 +51,7 @@
       <value name="rh.requestHeaderValues">text/xml,login</value>
     </record>
     <array name="passmanHandles" type="value" depth="1">
-      <value>conn:sfdcCrm53.cr.password</value>
+      <value>conn:sfdcCrm48.cr.password</value>
     </array>
     <record name="connectionManagerProperties" javaclass="com.wm.util.Values">
       <value name="poolable">true</value>
@@ -67,6 +67,6 @@
     </record>
     <array name="formattableFields" type="value" depth="1">
     </array>
-    <value name="connectionEnabled">false</value>
+    <value name="connectionEnabled">true</value>
   </record>
 </Values>

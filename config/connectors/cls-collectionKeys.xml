@@ -2,6 +2,7 @@
 <services>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
         <servicesKeys>
+            <keyDetails collectionKey="services.sfdc.crm:get20Acc_v48" connectorServiceName="services.sfdc.crm:get20Acc_v48"/>
             <keyDetails collectionKey="services.sfdc.crm:getAcc" connectorServiceName="services.sfdc.crm:getAcc"/>
             <keyDetails collectionKey="services.sfdc.crm:getTenAccCcs" connectorServiceName="services.sfdc.crm:getTenAccCcs"/>
             <keyDetails collectionKey="services.sfdc.oauth:getAllAccountOauth" connectorServiceName="services.sfdc.oauth:getAllAccountOauth"/>
