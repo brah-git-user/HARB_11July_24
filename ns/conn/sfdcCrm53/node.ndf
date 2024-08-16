@@ -13,7 +13,7 @@
     <value name="providerName">WmSalesforceProvider</value>
     <value name="providerConnectionType">sagcloud</value>
     <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
-      <value name="cn.providerUrl">https://login.salesforce2.com/services/Soap/u/53.0</value>
+      <value name="cn.providerUrl">https://login.salesforce.com/services/Soap/u/53.0</value>
       <value name="cn.connectTimeout">180000</value>
       <value name="cn.readTimeout">180000</value>
       <value name="cn.socketStaleCheck">true</value>
